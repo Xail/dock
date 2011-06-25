@@ -1,0 +1,39 @@
+object DockForm: TDockForm
+  Left = 95
+  Height = 64
+  Top = 279
+  Width = 733
+  AlphaBlend = True
+  AlphaBlendValue = 192
+  AutoSize = True
+  BorderStyle = bsNone
+  Caption = '0'
+  ClientHeight = 64
+  ClientWidth = 733
+  DefaultMonitor = dmMainForm
+  DragKind = dkDock
+  DragMode = dmAutomatic
+  FormStyle = fsSystemStayOnTop
+  OnCreate = FormCreate
+  OnResize = FormResize
+  ShowInTaskBar = stNever
+  UseDockManager = True
+  LCLVersion = '0.9.30'
+  object DockPanel: TDockPanel
+    Left = 0
+    Height = 2
+    Top = 0
+    Width = 733
+    Align = alTop
+    AutoSize = True
+    BevelOuter = bvSpace
+    Caption = '0'
+    TabOrder = 0
+    OnResize = DockPanelResize
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 96
+    top = 16
+  end
+end
