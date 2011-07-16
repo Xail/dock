@@ -43,6 +43,7 @@ object DockForm: TDockForm
     OnClick = Panel1Click
   end
   object Timer1: TTimer
+    Interval = 1
     OnTimer = Timer1Timer
     left = 96
     top = 16

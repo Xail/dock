@@ -40,7 +40,8 @@ implementation
 
 procedure TDockForm.FormCreate(Sender: TObject);
 begin
-
+  SetWindowLong(Self.Handle, GWL_EXSTYLE, WS_EX_TRANSPARENT or WS_EX_LAYERED);
+  SetLayeredWindowAttributes(Self.Handle, 0, 255, LWA_ALPHA);
 end;
 
 procedure TDockForm.DockPanelResize(Sender: TObject);
@@ -62,7 +63,11 @@ end;
 
 procedure TDockForm.Timer1Timer(Sender: TObject);
 begin
-  DockPanel.InitButtons;
+  if (Mouse.CursorPos.X >= Left) and (Mouse.CursorPos.X <= Width+Left+1) and
+     (Mouse.CursorPos.Y >= Top) and (Mouse.CursorPos.Y <= Height+Top+1) then
+    SetLayeredWindowAttributes(Self.Handle, 0, 200, LWA_ALPHA)
+  else
+    SetLayeredWindowAttributes(Self.Handle, 0, 255, LWA_ALPHA);
 end;
 
 end.
