@@ -1,0 +1,42 @@
+object DockForm: TDockForm
+  Left = 292
+  Height = 52
+  Top = 860
+  Width = 320
+  Align = alBottom
+  AllowDropFiles = True
+  AlphaBlend = True
+  AutoSize = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'DockForm'
+  ClientHeight = 52
+  ClientWidth = 320
+  FormStyle = fsSystemStayOnTop
+  LCLVersion = '0.9.30'
+  object dock_toolbar: TToolBar
+    Left = 0
+    Height = 52
+    Top = 0
+    Width = 320
+    Align = alClient
+    ButtonHeight = 48
+    ButtonWidth = 48
+    EdgeBorders = []
+    TabOrder = 0
+  end
+  object dock_actions: TActionList
+    left = 128
+    top = 8
+    object get_applications: TAction
+      Caption = 'Получить список приложений'
+      OnExecute = get_applicationsExecute
+    end
+  end
+  object refresh_timer: TTimer
+    Interval = 5000
+    OnTimer = get_applicationsExecute
+    left = 48
+    top = 8
+  end
+end

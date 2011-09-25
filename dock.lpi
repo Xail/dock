@@ -29,310 +29,164 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="2">
+    <RequiredPackages Count="1">
       <Item1>
-        <PackageName Value="dock_pkg"/>
-        <MinVersion Valid="True"/>
-      </Item1>
-      <Item2>
         <PackageName Value="LCL"/>
-      </Item2>
+      </Item1>
     </RequiredPackages>
-    <Units Count="19">
+    <Units Count="3">
       <Unit0>
         <Filename Value="dock.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="dock"/>
-        <EditorIndex Value="6"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="18" Y="14"/>
-        <UsageCount Value="34"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
-        <Filename Value="fm_main.pas"/>
+        <Filename Value="dock_form.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DockForm"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fm_main"/>
+        <UnitName Value="dock_form"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="47"/>
-        <CursorPos X="78" Y="60"/>
-        <UsageCount Value="34"/>
+        <TopLine Value="38"/>
+        <CursorPos X="42" Y="54"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="README.txt"/>
-        <IsPartOfProject Value="True"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="21" Y="10"/>
-        <UsageCount Value="34"/>
-        <DefaultSyntaxHighlighter Value="None"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="un_launch_panel.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="un_launch_panel"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="73" Y="9"/>
-        <UsageCount Value="32"/>
-        <Loaded Value="True"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="un_launch_button.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="un_launch_button"/>
-        <EditorIndex Value="3"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="60" Y="9"/>
-        <UsageCount Value="29"/>
-        <Loaded Value="True"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="C:\lazarus\lcl\extctrls.pp"/>
-        <UnitName Value="ExtCtrls"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1187"/>
-        <CursorPos X="3" Y="1192"/>
-        <UsageCount Value="9"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="launcherpanel.pas"/>
-        <UnitName Value="launcherpanel"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="92" Y="8"/>
-        <UsageCount Value="9"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="dockpanel.pas"/>
-        <UnitName Value="DockPanel"/>
-        <EditorIndex Value="4"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="131"/>
-        <CursorPos X="65" Y="142"/>
-        <UsageCount Value="14"/>
-        <Loaded Value="True"/>
-      </Unit7>
-      <Unit8>
-        <Filename Value="dockbutton.pas"/>
-        <UnitName Value="DockButton"/>
-        <EditorIndex Value="7"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="160"/>
-        <CursorPos X="1" Y="180"/>
-        <UsageCount Value="14"/>
-        <Loaded Value="True"/>
-      </Unit8>
-      <Unit9>
-        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="3190"/>
-        <CursorPos X="19" Y="3190"/>
-        <UsageCount Value="10"/>
-      </Unit9>
-      <Unit10>
-        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2061"/>
-        <CursorPos X="1" Y="2078"/>
-        <UsageCount Value="10"/>
-      </Unit10>
-      <Unit11>
-        <Filename Value="C:\lazarus\lcl\buttons.pp"/>
-        <UnitName Value="Buttons"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="162"/>
-        <CursorPos X="47" Y="171"/>
-        <UsageCount Value="11"/>
-      </Unit11>
-      <Unit12>
-        <Filename Value="C:\lazarus\lcl\menus.pp"/>
-        <UnitName Value="Menus"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="30"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="11"/>
-      </Unit12>
-      <Unit13>
-        <Filename Value="C:\lazarus\lcl\include\bitbtn.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="46"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="10"/>
-      </Unit13>
-      <Unit14>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <EditorIndex Value="5"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="7150"/>
-        <CursorPos X="1" Y="7164"/>
-        <UsageCount Value="11"/>
-        <Loaded Value="True"/>
-      </Unit14>
-      <Unit15>
-        <Filename Value="C:\lazarus\lcl\include\canvas.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1217"/>
-        <CursorPos X="1" Y="1231"/>
-        <UsageCount Value="10"/>
-      </Unit15>
-      <Unit16>
-        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\win\wininc\redef.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="7"/>
-        <CursorPos X="3" Y="21"/>
-        <UsageCount Value="10"/>
-      </Unit16>
-      <Unit17>
         <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
         <UnitName Value="CustomTimer"/>
-        <EditorIndex Value="0"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="168"/>
-        <CursorPos X="50" Y="185"/>
-        <UsageCount Value="11"/>
+        <TopLine Value="143"/>
+        <CursorPos X="1" Y="157"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
-      </Unit17>
-      <Unit18>
-        <Filename Value="C:\lazarus\lcl\lclclasses.pp"/>
-        <UnitName Value="LCLClasses"/>
-        <EditorIndex Value="8"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="104"/>
-        <CursorPos X="1" Y="127"/>
-        <UsageCount Value="11"/>
-        <Loaded Value="True"/>
-      </Unit18>
+      </Unit2>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="169" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="63" Column="61" TopLine="36"/>
       </Position1>
       <Position2>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="171" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="47" Column="33" TopLine="36"/>
       </Position2>
       <Position3>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="172" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="63" Column="62" TopLine="46"/>
       </Position3>
       <Position4>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="173" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="43" Column="1" TopLine="29"/>
       </Position4>
       <Position5>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="174" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="44" Column="1" TopLine="29"/>
       </Position5>
       <Position6>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="175" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="1" TopLine="29"/>
       </Position6>
       <Position7>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="176" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="47" Column="1" TopLine="29"/>
       </Position7>
       <Position8>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="177" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="48" Column="1" TopLine="29"/>
       </Position8>
       <Position9>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="178" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="56" Column="1" TopLine="33"/>
       </Position9>
       <Position10>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="179" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="60" Column="1" TopLine="37"/>
       </Position10>
       <Position11>
-        <Filename Value="dockbutton.pas"/>
-        <Caret Line="180" Column="1" TopLine="160"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="43" Column="1" TopLine="37"/>
       </Position11>
       <Position12>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="85" Column="1" TopLine="71"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="1" TopLine="37"/>
       </Position12>
       <Position13>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="86" Column="1" TopLine="71"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="43" Column="1" TopLine="37"/>
       </Position13>
       <Position14>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="87" Column="1" TopLine="71"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="1" TopLine="37"/>
       </Position14>
       <Position15>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="127" Column="39" TopLine="113"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="43" Column="1" TopLine="37"/>
       </Position15>
       <Position16>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <Caret Line="7164" Column="1" TopLine="7150"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="1" TopLine="37"/>
       </Position16>
       <Position17>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="127" Column="1" TopLine="113"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="43" Column="1" TopLine="37"/>
       </Position17>
       <Position18>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <Caret Line="6278" Column="1" TopLine="6264"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="59" Column="37" TopLine="46"/>
       </Position18>
       <Position19>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <Caret Line="7596" Column="1" TopLine="7582"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="58" Column="33" TopLine="37"/>
       </Position19>
       <Position20>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <Caret Line="7164" Column="1" TopLine="7150"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="1" TopLine="37"/>
       </Position20>
       <Position21>
-        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
-        <Caret Line="7596" Column="1" TopLine="7582"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="47" Column="1" TopLine="37"/>
       </Position21>
       <Position22>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="144" Column="2" TopLine="128"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="45" Column="15" TopLine="37"/>
       </Position22>
       <Position23>
-        <Filename Value="dockpanel.pas"/>
-        <Caret Line="125" Column="1" TopLine="111"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="51" Column="25" TopLine="37"/>
       </Position23>
       <Position24>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="46" Column="10" TopLine="10"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="47" Column="1" TopLine="37"/>
       </Position24>
       <Position25>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="48" Column="10" TopLine="21"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="48" Column="1" TopLine="37"/>
       </Position25>
       <Position26>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="9" Column="40" TopLine="2"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="56" Column="1" TopLine="37"/>
       </Position26>
       <Position27>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="53" Column="63" TopLine="32"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="52" Column="67" TopLine="38"/>
       </Position27>
       <Position28>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="68" Column="20" TopLine="46"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="53" Column="24" TopLine="38"/>
       </Position28>
       <Position29>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="72" Column="53" TopLine="46"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="54" Column="9" TopLine="31"/>
       </Position29>
       <Position30>
-        <Filename Value="fm_main.pas"/>
-        <Caret Line="50" Column="58" TopLine="31"/>
+        <Filename Value="dock_form.pas"/>
+        <Caret Line="52" Column="58" TopLine="38"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
@@ -358,22 +212,6 @@
     </Other>
   </CompilerOptions>
   <Debugging>
-    <Watches Count="4">
-      <Item1>
-        <Expression Value="pwi^.pid"/>
-      </Item1>
-      <Item2>
-        <Expression Value="pwi^"/>
-      </Item2>
-      <Item3>
-        <Expression Value="ModuleName"/>
-        <DisplayStyle Value="wdfStructure"/>
-      </Item3>
-      <Item4>
-        <Expression Value="Parent"/>
-        <DisplayStyle Value="wdfStructure"/>
-      </Item4>
-    </Watches>
     <Exceptions Count="3">
       <Item1>
         <Name Value="EAbort"/>
